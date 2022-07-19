@@ -44,13 +44,13 @@ function Display({ population, temperature, weather, name  }: DisplayProps) {
         alignItems="center"
       >
         <Grid sx={{p:1}} >
-          <WbSunnyTwoToneIcon color= "disabled" fontSize="large"  />
+          <WbSunnyTwoToneIcon color= "primary" fontSize="large"  />
         </Grid>
         <Grid sx={{p:1}}>
-          <CloudTwoToneIcon color="disabled" fontSize="large" />
+          <CloudTwoToneIcon color="primary" fontSize="large" />
         </Grid>
         <Grid sx={{p:1}}>
-          <ThunderstormTwoToneIcon color="disabled" fontSize="large" />
+          <ThunderstormTwoToneIcon color="primary" fontSize="large" />
         </Grid>
       </Grid>
   

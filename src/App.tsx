@@ -36,9 +36,9 @@ function App() {
   const [input, setInputField] = useState("");
   const [weather, setWeather] = useState("");
   const [cityName, setCityName] = useState("");
-  const [clouds, setClouds] = useState (false)
-  const [rain, setRain] = useState (false)
-  const [sunny, setSunny] = useState (false)
+  // const [clouds, setClouds] = useState (false)
+  // const [rain, setRain] = useState (false)
+  // const [sunny, setSunny] = useState (false)
   const [population, setPopulation] = useState(0);
   const [temperature, setTemperature] = useState(0);
   const [daily, setDaily] = useState({ 
