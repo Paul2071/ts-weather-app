@@ -32,6 +32,7 @@ const newTheme = createTheme({
 
 
 function App() {
+  const API_KEY = process.env.REACT_APP_APIKEY
   const [input, setInputField] = useState("");
   const [weather, setWeather] = useState("");
   const [cityName, setCityName] = useState("");
@@ -57,7 +58,7 @@ function App() {
 
   async function handleClick() {
     const res = await fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?q=${input}&mode=json&units=metric&appid=783e8d99d8f427f74c5920c808625b77`
+      `http://api.openweathermap.org/data/2.5/forecast?q=${input}&mode=json&units=metric&appid=${API_KEY}`
     );
     const data = await res.json();
     console.log(data.city.name);

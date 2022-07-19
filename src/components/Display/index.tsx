@@ -20,7 +20,7 @@ type DisplayProps = {
 function Display({ population, temperature, weather, name  }: DisplayProps) {
   return (
     <Paper sx={{ p: 10, mt: 10 }} elevation={6}>
-      <Typography component={"span"} fontWeight = "fontWeightBold">
+      <Typography component={"h2"} fontWeight = "fontWeightBold">
         <Grid item p={1} >
           Name: {name}
         </Grid>
