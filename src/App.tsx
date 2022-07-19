@@ -58,7 +58,7 @@ function App() {
 
   async function handleClick() {
     const res = await fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?q=${input}&mode=json&units=metric&appid=${API_KEY}`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${input}&mode=json&units=metric&appid=${API_KEY}`
     );
     const data = await res.json();
     console.log(data.city.name);
