@@ -16,7 +16,7 @@ For more about that decision and my experience using MUI for the first time, che
 
 The app makes calls to https://openweathermap.org/api based on the city that is typed and searched for in the input field.
 
-If you would like to try it, follow these steps:
+If you would like to try it locally, follow the below steps, otherwise it is deployed and ready to tryout here https://tsweatherapp12.netlify.app/.
 
 1. Go to https://openweathermap.org/api and follow the instructions to get your own API key. Once you have created a free acount and signed in, click your account name in the top right and from the drop down click "My API keys" to view your own API key.
 2. Clone down the code https://github.com/Paul2071/ts-weather-app.git
